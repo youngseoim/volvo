@@ -1,3 +1,7 @@
+
+@import url(./reset.css);
+@import url(//db.onlinewebfonts.com/c/ba5ccffcd04561bfd40f24f63fc62b3d?family=Volvo+Novum+Light);
+
 @font-face {
   font-family: "Volvo Novum"; 
   src: url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.eot"); 
@@ -7,8 +11,8 @@
   format("woff"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.ttf") 
   format("truetype"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.svg#Volvo Novum") format("svg"); 
 }
- 
 
+ 
 body{
   font-family: "Volvo Novum";
 }
@@ -25,6 +29,159 @@ a{
   content: "";
   display: block;
   clear: both;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 헤더 영역 */
+
+.header{
+  height: 70px;
+  position: relative;
+}
+.volvo-heading {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.volvo-heading {
+  padding-top: 10px;
+}
+.volvo-heading a img {
+  width: 51px;
+  height: 51px;
+}
+.nav {
+  padding: 0 22px;
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+}
+.left-menu {
+  float: left;
+}
+.left-menu li,
+.right-menu li {
+  display: inline-block;
+  padding: 25px 0 30px 0;
+}
+.left-menu li a,
+.right-menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 100;
+}
+.left-menu li{
+  margin-left: 15px;
+}
+.left-menu li a::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-image: url(../menu-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  margin-left: 5px;
+}
+.right-menu {
+  float: right;
+}
+.right-menu li {
+  margin-left: 29px;
+}
+.left-menu li:hover,
+.right-menu li:hover {
+  border-bottom: 2px solid #007bcd;
+}
+/* 메인 영역 */
+.visual{
+  overflow: hidden;
+}
+.visual ul{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.visual ul li{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 180px 0 0 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.visual ul li:first-child{
+  background-image: url(/img/download.jpg);
+}
+.visual ul li:nth-child(2){
+  background-image: url(/img/sup00164_1920.jpg);
+}
+.visual ul li:last-child{
+  background-image: url(/img/tim00416.jpg);
+}
+.visual ul li p{
+  color: #fff;
+  opacity: 0;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+.visual ul li :nth-child(1){
+  transition: opacity 1s;
+}
+.visual ul li :nth-child(2){
+  transition: opacity 2s;
+}
+.visual ul li :nth-child(3){
+  transition: opacity 3s;
+}
+.visual ul li .big{
+  display: block;
+  opacity: 0;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 38px;
+}
+.visual .more{
+  display: inline-block;
+  opacity: 0;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+}
+.visual ul li.on p, .visual ul li.on .big, .visual ul li.on .more{
+  opacity: 1;
+}
+/* 하단 메뉴 영역 */
+.bottom-nav{
+  position: fixed;
+  width:100%;
+  bottom: 0;
+  background-color: #fff;
+}
+.bottom-nav ul{
+  width: 1000px;
+  margin: 0 auto;
+}
+.bottom-nav ul li{
+  width: 25%;
+  float: left;
+}
+.bottom-nav ul li a{
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+  font-size: 1.2rem;
 }
 .footer{
   padding:50px 0;
@@ -148,6 +305,7 @@ height:20px;
   margin-top:20px;
 }
 .cookie__item{
+<<<<<<< HEAD
   display: inline-block;
   position: relative;
   font-size:0;
