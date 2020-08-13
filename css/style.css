@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/ba5ccffcd04561bfd40f24f63fc62b3d?family=Volvo+Novum+Light);
 @font-face {
   font-family: "Volvo Novum"; 
   src: url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.eot"); 
@@ -7,6 +8,7 @@
   format("woff"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.ttf") 
   format("truetype"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.svg#Volvo Novum") format("svg"); 
 }
+
  
 
 body{
