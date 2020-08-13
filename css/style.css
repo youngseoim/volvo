@@ -1,0 +1,40 @@
+ul,li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.clearfix::after{
+  content: "0";
+  display: block;
+  clear: both;
+}
+.footer{
+  height:700px;
+  padding:50px 0;
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+}
+.footer__inner{
+
+}
+.fmenu__list{
+
+}
+.fmenu__item{
+
+}
+.sns__list{
+
+}
+.sns__item{
+
+  
+}
+.cookie__item{
+ 
+}
