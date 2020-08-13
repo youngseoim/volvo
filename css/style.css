@@ -350,5 +350,6 @@ width:0;
 
 }
 .button__top::after:hover{
-  color:#000
+  color:#000;
+  background-color: #fff;
 }
