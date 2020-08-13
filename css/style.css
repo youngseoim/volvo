@@ -14,8 +14,8 @@
 
  
 body{
-  font-family: "Volvo Novum";
-}
+  font-family: "Volvo Novum", "Volvo Novum Light";
+} 
 ul,li{
   list-style: none;
   padding:0;
@@ -67,14 +67,17 @@ ul{
 .left-menu li,
 .right-menu li {
   display: inline-block;
-  padding: 25px 0 30px 0;
+  padding: 25px 0 27px 0;
 }
 .left-menu li a,
 .right-menu li a {
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: #333;
   font-weight: 100;
+  font-size: 15px;
+  font-family:"Volvo Novum Light", sans-serif ;
+  letter-spacing: 3px;
 }
 .left-menu li{
   margin-left: 15px;
@@ -102,7 +105,7 @@ ul{
 }
 /* 메인 영역 */
 .visual{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .visual ul{
   position: relative;
@@ -122,13 +125,13 @@ ul{
   left: 0;
 }
 .visual ul li:first-child{
-  background-image: url(/img/download.jpg);
+  background-image: url(../img/download.jpg);
 }
 .visual ul li:nth-child(2){
-  background-image: url(/img/sup00164_1920.jpg);
+  background-image: url(../img/sup00164_1920.jpg);
 }
 .visual ul li:last-child{
-  background-image: url(/img/tim00416.jpg);
+  background-image: url(../img/tim00416.jpg);
 }
 .visual ul li p{
   color: #fff;
