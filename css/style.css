@@ -1,0 +1,62 @@
+/* 헤더 영역 */
+.header {
+  height: 70px;
+  position: relative;
+}
+.volvo-heading {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.volvo-heading {
+  padding-top: 10px;
+}
+.volvo-heading a img {
+  width: 51px;
+  height: 51px;
+}
+.nav {
+  padding: 0 22px;
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+}
+.left-menu {
+  float: left;
+}
+.left-menu li,
+.right-menu li {
+  display: inline-block;
+  padding: 25px 0 30px 0;
+}
+.left-menu li a,
+.right-menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+}
+.left-menu li{
+  margin-left: 15px;
+}
+.left-menu li a::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-image: url(../menu-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  margin-left: 5px;
+}
+.right-menu {
+  float: right;
+}
+.right-menu li {
+  margin-left: 29px;
+}
+.left-menu li:hover,
+.right-menu li:hover {
+  border-bottom: 2px solid #007bcd;
+}
