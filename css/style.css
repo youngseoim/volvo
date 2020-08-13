@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 @import url(//db.onlinewebfonts.com/c/ba5ccffcd04561bfd40f24f63fc62b3d?family=Volvo+Novum+Light);
+=======
+@font-face {
+  font-family: "Volvo Novum"; 
+  src: url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.eot"); 
+  src: url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.eot?#iefix") 
+  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.woff") 
+  format("woff"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.ttf") 
+  format("truetype"), url("//db.onlinewebfonts.com/t/25cb6845cb99afb2f536ee7861d32413.svg#Volvo Novum") format("svg"); 
+}
+ 
+
+>>>>>>> c2f24153e45705de15ffcd3b2b8c2e74b791d087
 body{
   font-family: "Volvo Novum";
 }
@@ -16,6 +30,7 @@ a{
   display: block;
   clear: both;
 }
+<<<<<<< HEAD
 /* 헤더 영역 */
 .header {
   height: 70px;
@@ -80,6 +95,8 @@ a{
   border-bottom: 2px solid #007bcd;
 }
 
+=======
+>>>>>>> c2f24153e45705de15ffcd3b2b8c2e74b791d087
 .footer{
   height:700px;
   padding:50px 0;
