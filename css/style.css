@@ -1,3 +1,21 @@
+@import url(//db.onlinewebfonts.com/c/ba5ccffcd04561bfd40f24f63fc62b3d?family=Volvo+Novum+Light);
+body{
+  font-family: "Volvo Novum";
+}
+ul,li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.clearfix::after{
+  content: "0";
+  display: block;
+  clear: both;
+}
 /* 헤더 영역 */
 .header {
   height: 70px;
@@ -34,7 +52,8 @@
 .right-menu li a {
   display: inline-block;
   text-decoration: none;
-  color: #333333;
+  color: #000;
+  font-weight: 100;
 }
 .left-menu li{
   margin-left: 15px;
@@ -59,4 +78,31 @@
 .left-menu li:hover,
 .right-menu li:hover {
   border-bottom: 2px solid #007bcd;
+}
+
+.footer{
+  height:700px;
+  padding:50px 0;
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+}
+.footer__inner{
+
+}
+.fmenu__list{
+
+}
+.fmenu__item{
+
+}
+.sns__list{
+
+}
+.sns__item{
+
+  
+}
+.cookie__item{
+ 
 }
