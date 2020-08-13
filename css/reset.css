@@ -18,7 +18,10 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+<<<<<<< HEAD
+=======
   font-size: 1.6rem;
+>>>>>>> c2f24153e45705de15ffcd3b2b8c2e74b791d087
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
