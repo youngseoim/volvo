@@ -332,7 +332,8 @@ width:0;
   font-size:15px;
   letter-spacing: 1px;
   color:#ddd;
-  margin:20px;
+  margin-bottom:50px;
+  /* margin:20px; */
 }
 .button__top:hover{
   background-color: #fff;
@@ -349,7 +350,7 @@ width:0;
   transform: rotate(180deg);
 
 }
-.button__top::after:hover{
-  color:#000;
-  background-color: #fff;
+.button__top:hover::after{
+  background:url(../tophover.svg) no-repeat;
+
 }
