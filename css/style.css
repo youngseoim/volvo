@@ -105,7 +105,8 @@ ul{
 }
 /* 메인 영역 */
 .visual{
-  /* overflow: hidden; */
+  overflow: hidden;
+  width: 100%;
 }
 .visual ul{
   position: relative;
@@ -140,13 +141,13 @@ ul{
   padding-bottom: 30px;
 }
 .visual ul li :nth-child(1){
-  transition: opacity 1s;
+  transition: all 0.5s;
 }
 .visual ul li :nth-child(2){
-  transition: opacity 2s;
+  transition: all 1s;
 }
 .visual ul li :nth-child(3){
-  transition: opacity 3s;
+  transition: all 1.5s;
 }
 .visual ul li .big{
   display: block;
@@ -161,6 +162,10 @@ ul{
   padding: 10px 15px;
   border: 1px solid #fff;
 }
+.visual .more:hover{
+  background-color: #fff;
+  color: #333;
+}
 .visual ul li.on p, .visual ul li.on .big, .visual ul li.on .more{
   opacity: 1;
 }
@@ -168,8 +173,12 @@ ul{
 .bottom-nav{
   position: fixed;
   width:100%;
-  bottom: 0;
+  bottom: -60px;
   background-color: #fff;
+  transition: bottom 0.5s;
+}
+.bottom-nav.on{
+  bottom: 0;
 }
 .bottom-nav ul{
   width: 1000px;
